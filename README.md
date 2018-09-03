@@ -1,6 +1,6 @@
-# Logstack ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+# Logstack ![NPM Version](https://badge.fury.io/js/logstack.svg) ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
-Logstack is simple logger alternative to console.log which is written in specified file instead of terminal window.
+Logstack is simple logger alternative to console.log() which is written in specified file instead of terminal window.
 
 ## Installation
 
@@ -9,9 +9,10 @@ Logstack is simple logger alternative to console.log which is written in specifi
 ## Example & Usage
 ```
 const logstack = require('logstack');
+const path = require('path');
 
 // Please make sure the directory is available and use it only for logstack
-const directory = './directory';
+const directory = path.join(__dirname, './directory');
 let log = function (logMessage) {
     logstack.createLog(directory, 3, logMessage); // To create log
 }
