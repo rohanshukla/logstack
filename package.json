@@ -1,0 +1,25 @@
+{
+  "name": "logstack",
+  "version": "1.0.0",
+  "description": "Logstack is simple logger alternative to console.log which is written in specified file instead of terminal window.\",",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuklarohan/logstack.git"
+  },
+  "keywords": [
+    "logstack",
+    "logger",
+    "log",
+    "console log"
+  ],
+  "author": "Rohan Shukla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shuklarohan/logstack/issues"
+  },
+  "homepage": "https://github.com/shuklarohan/logstack#readme"
+}
