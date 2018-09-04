@@ -7,7 +7,7 @@ Logstack is simple logger alternative to console.log() which is written in speci
 `$ npm install --save logstack`
 
 ## Example & Usage
-```
+```javascript
 const logstack = require('logstack');
 const path = require('path');
 
