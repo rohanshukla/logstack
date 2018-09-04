@@ -13,15 +13,16 @@ const path = require('path');
 
 // Please make sure the directory is available and use it only for logstack
 const directory = path.join(__dirname, './directory');
+const logFileCount = 3;
 let log = function (logMessage) {
-    logstack.createLog(directory, 3, logMessage); // To create log
+    logstack.createLog(directory, logFileCount, logMessage); // To create log
 }
 // Just call the function with specified log message
 log("Hello from logstack");
 ```
 
 ## Author
-Rohan Shukla [LinkedIn](www.linkedin.com/in/shuklarohan) [GitHub](https://github.com/shuklarohan)
+Rohan Shukla [Mail](mailto:errohanshukla@gmail.com) [GitHub](https://github.com/shuklarohan)
 
 ## License
 © Licensed under the [MIT License](LICENSE).
