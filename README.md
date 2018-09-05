@@ -1,4 +1,4 @@
-# Logstack ![NPM Version](https://badge.fury.io/js/logstack.svg) ![Total Download](https://img.shields.io/npm/dt/logstack.svg) ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+# [Logstack](https://www.npmjs.com/package/logstack) ![NPM Version](https://badge.fury.io/js/logstack.svg) ![Total Download](https://img.shields.io/npm/dt/logstack.svg) ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 Logstack is simple logger alternative to console.log() which is written in specified file instead of terminal window.
 
