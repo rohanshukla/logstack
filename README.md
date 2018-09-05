@@ -1,17 +1,20 @@
-# Logstack ![NPM Version](https://badge.fury.io/js/logstack.svg) ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+# Logstack ![NPM Version](https://badge.fury.io/js/logstack.svg) ![Total Download](https://img.shields.io/npm/dt/logstack.svg) ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 Logstack is simple logger alternative to console.log() which is written in specified file instead of terminal window.
 
 ## Installation
 
-This is a Node.js module available through the npm registry.<br />
-Installation is done using the npm install command:
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/).<br />
+Installation is done using the
+[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+
 ```bash
 $ npm install --save logstack
 ```
 
 ## Example & Usage
-```javascript
+```js
 const logstack = require('logstack');
 const path = require('path');
 
