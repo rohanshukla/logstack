@@ -4,6 +4,8 @@ Logstack is simple logger alternative to console.log() which is written in speci
 
 ## Installation
 
+This is a Node.js module available through the npm registry.<br />
+Installation is done using the npm install command:
 ```bash
 $ npm install --save logstack
 ```
@@ -22,6 +24,11 @@ let log = function (logMessage) {
 // Just call the function with specified log message
 log("Hello from logstack");
 ```
+
+## Features
+* Prints log messages with time in specific date file
+* Provides option to create daily log file
+* Useful in applications where you may want to log error, info while in development and production for different parts of the code
 
 ## Author
 Rohan Shukla [Mail](mailto:errohanshukla@gmail.com) [GitHub](https://github.com/shuklarohan)
