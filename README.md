@@ -14,6 +14,7 @@ $ npm install --save logstack
 ```
 
 ## Example & Usage
+### To Log the message
 ```js
 const logstack = require('logstack');
 const path = require('path');
@@ -22,9 +23,22 @@ const path = require('path');
 const directory = path.join(__dirname, './directory');
 const logFileCount = 3;
 let log = function (logMessage) {
-    logstack.createLog(directory, logFileCount, logMessage); // To create log
+    logstack.createLog(directory, logFileCount, logMessage); // To create log 
 }
 // Just call the function with specified log message
+log("Hello from logstack");
+```
+---
+
+### To disable logstack
+```js
+// Please make sure the directory is available and use it only for logstack
+const directory = path.join(__dirname, './directory');
+const logFileCount = 3;
+let log = function (logMessage) {
+    // Passing false argument will not log the message
+    logstack.createLog(directory, logFileCount, logMessage, false);
+}
 log("Hello from logstack");
 ```
 
