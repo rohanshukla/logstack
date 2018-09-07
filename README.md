@@ -28,7 +28,6 @@ let log = function (logMessage) {
 // Just call the function with specified log message
 log("Hello from logstack");
 ```
----
 
 ### To disable logstack
 ```js
@@ -46,9 +45,10 @@ log("Hello from logstack");
 * Prints log messages with time in specific date file
 * Provides option to create daily log file
 * Useful in applications where you may want to log error, info while in development and production for different parts of the code
+* Option to enable and disable logging anytime
 
 ## Author
-Rohan Shukla [Mail](mailto:errohanshukla@gmail.com) [GitHub](https://github.com/shuklarohan)
+Rohan Shukla [GitHub](https://github.com/shuklarohan) [LinkedIn](https://www.linkedin.com/in/shuklarohan)
 
 ## License
 © Licensed under the [MIT License](LICENSE).
