@@ -23,7 +23,8 @@ const path = require('path');
 const directory = path.join(__dirname, './directory');
 const logFileCount = 3;
 let log = function (logMessage) {
-    logstack.createLog(directory, logFileCount, logMessage); // To create log 
+    // To create log
+    logstack.createLog(directory, logFileCount, logMessage);
 }
 // Just call the function with specified log message
 log("Hello from logstack");
