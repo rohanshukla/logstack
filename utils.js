@@ -23,3 +23,24 @@ exports.formatTime = function (date) {
 
     return hour + ':' + minutes;
 }
+
+exports.isNullOrEmpty = function (stringValue) {
+    if (isString(stringValue)) {
+        if (stringValue == null || stringValue == '') {
+            return true;
+        }
+    } else {
+        if (stringValue == null) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function isString(object) {
+    if (typeof object === 'string') {
+        return true;
+    } else {
+        return false;
+    }
+}
