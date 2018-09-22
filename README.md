@@ -32,6 +32,9 @@ log("Hello from logstack");
 
 ### To disable logstack
 ```js
+const logstack = require('logstack');
+const path = require('path');
+
 // Please make sure the directory is available and use it only for logstack
 const directory = path.join(__dirname, './directory');
 const logFileCount = 3;

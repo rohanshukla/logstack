@@ -10,6 +10,16 @@ let date = new Date();
 var logstack = {
     createLog: function (pathDirectory, loggerCount, log, enable = true) {
 
+        if(typeof pathDirectory === 'undefined'){
+            throw new TypeError('Path Directory argument is missing / not defined');
+        }
+        if (isNaN(loggerCount)) {
+            throw new TypeError('Second argument is not a number');
+        }
+        if (typeof log === 'undefined') {
+            throw new TypeError('Log Message argument is missing / not defined');
+        }
+
         if (enable) {
             // Appending log message with Time of logging
             let logMessage = utils.formatTime(date) + " --> " + log + "\n\n";
