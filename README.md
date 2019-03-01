@@ -47,11 +47,25 @@ let log = function (logMessage) {
 log("Hello from logstack");
 ```
 
+### To delete log
+```js
+const logstack = require('logstack');
+const path = require('path');
+
+// Please make sure the directory is available and use it only for logstack
+const directory = path.join(__dirname, './directory');
+const logFileCount = 3;
+let deleteLog = function (fileName) {
+    logstack.deleteLog(directory, fileName);
+}
+```
+
 ## Features
 * Prints log messages with time in specific date file
 * Provides option to create daily log file
 * Useful in applications where you may want to log error, info while in development and production for different parts of the code
 * Option to enable and disable logging anytime
+* Option to delete log
 
 ## Author
 Rohan Shukla [GitHub](https://github.com/shuklarohan) [LinkedIn](https://www.linkedin.com/in/shuklarohan)

@@ -10,7 +10,7 @@ let date = new Date();
 var logstack = {
     createLog: function (pathDirectory, loggerCount, log, enable = true) {
 
-        if(typeof pathDirectory === 'undefined'){
+        if (typeof pathDirectory === 'undefined') {
             throw new TypeError('Path Directory argument is missing / not defined');
         }
         if (isNaN(loggerCount)) {
@@ -57,6 +57,11 @@ var logstack = {
                 }
             });
         }
+    },
+    deleteLog: function (pathDirectory, file) {
+        fs.unlink(pathDirectory + '/' + file, (err) => {
+            if (err) throw err;
+        });
     }
 }
 

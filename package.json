@@ -1,6 +1,6 @@
 {
   "name": "logstack",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Logstack is simple logger alternative to console.log which is written in specified file instead of terminal window.\",",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,9 @@
     "logstack",
     "logger",
     "log",
-    "console log"
+    "console",
+    "console.log",
+    "console.log()"
   ],
   "author": "Rohan Shukla",
   "license": "MIT",
