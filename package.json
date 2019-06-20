@@ -1,6 +1,6 @@
 {
   "name": "logstack",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Logstack is simple logger alternative to console.log which is written in specified file instead of terminal window.\",",
   "main": "index.js",
   "scripts": {
