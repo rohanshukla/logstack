@@ -22,7 +22,7 @@ var logstack = {
 
         if (enable) {
             // Appending log message with Time of logging
-            let logMessage = utils.formatTime(date) + " --> " + JSON.stringify(log) + "\n\n";
+            let logMessage = utils.formatTime(date) + " --> " + JSON.stringify(log, undefined, 4) + "\n\n";
 
             // Filename is according to current date
             let fileName = utils.formatDate(date);
