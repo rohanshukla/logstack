@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuklarohan/logstack.git"
+    "url": "git+https://github.com/rohanshukla/logstack.git"
   },
   "keywords": [
     "logstack",
@@ -21,7 +21,7 @@
   "author": "Rohan Shukla",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuklarohan/logstack/issues"
+    "url": "https://github.com/rohanshukla/logstack/issues"
   },
-  "homepage": "https://github.com/shuklarohan/logstack#readme"
+  "homepage": "https://github.com/rohanshukla/logstack#readme"
 }

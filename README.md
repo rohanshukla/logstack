@@ -68,7 +68,7 @@ let deleteLog = function (fileName) {
 * Option to delete log
 
 ## Author
-Rohan Shukla [GitHub](https://github.com/shuklarohan) [LinkedIn](https://www.linkedin.com/in/shuklarohan)
+Rohan Shukla [GitHub](https://github.com/rohanshukla) [LinkedIn](https://www.linkedin.com/in/shuklarohan)
 
 ## License
 © Licensed under the [MIT License](LICENSE).
